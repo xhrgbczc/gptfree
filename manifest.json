@@ -1,0 +1,71 @@
+{
+  "name": "Personal Assistant",
+  "description": "Personal Assistant",
+  "version": "1.0.5",
+  "manifest_version": 3,
+  "author": "Tramper",
+  "icons": {
+    "16": "/images/icon16.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icons": {
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png",
+      "128": "/images/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "js/libs/jquery-3.6.0.min.js",
+        "js/layer/layer.js",
+        "js/libs/jquery-ui.min.js",
+        "js/pet.js",
+        "js/libs/crypto-js.min.js",
+        "js/content-script.js"
+      ],
+      "css": [
+        "css/content.css",
+        "js/layer/theme/default/layer.css",
+        "css/font-awesome.min.css"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "images/*",
+        "cursors/*",
+        "js/layer/*",
+        "pet-img-config.json"
+      ]
+    }
+  ]
+}

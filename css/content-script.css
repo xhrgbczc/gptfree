@@ -1,0 +1,219 @@
+.fn-inject-content {
+    max-width: 100%;
+    height: 500px;
+    width: 720px;
+    border: none;
+}
+
+.fn-inject-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+.fn-inject-tips {
+   width: 100%;
+   height: 100%;
+   border: none;
+   overflow: hidden;
+}
+
+.fn-background {
+    position: relative;
+    min-height: calc(100vh - 210px);
+    background-color: #fff;
+    padding-bottom: 1px;
+}
+
+.src-css-plug-price-logo-3aEx {
+   height: 34px;
+   width: auto;
+   margin: 0;
+   font-size: 20px;
+   color: #303133;
+   text-align: center;
+   white-space: nowrap;
+   background-color: #f9f9f9;
+   box-sizing: border-box;
+}
+
+.src-css-plug-price-logo-3aEx img {
+   max-width: 100%;
+   height: auto;
+   border-style: none;
+   width: 22px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+   margin-right: 5px;
+   vertical-align: middle;
+   box-sizing: border-box;
+}
+
+
+.src-css-plug-price-wrong-page-3sZa {
+   height: 320px;
+   padding: 70px 0 10px;
+   font-size: 20px;
+   width: auto;
+   color: #303133;
+   text-align: center;
+   background-color: #fff;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.src-css-plug-price-wrong-page-3sZa-p {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   color: #909399;
+   font-size: 20px;
+   font-weight: 400;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+.p3-amazon-div {
+   margin-top: 50px;
+}
+
+.p3-amazon-url-button {
+   border: none;
+   border-radius: 6px;
+   box-shadow: 1px 1px 2px 2px #bbb;
+   padding: 10px 60px 10px;
+   background: #fff url(../icons/amazon.png) no-repeat 13% 50%;
+   background-size: 25px 25px;
+   color: #5f6266;
+   font-size: 16px;
+   text-align: center;
+   cursor:pointer;
+}
+
+
+
+.top-module {
+   height: 50px;
+   width: 100%;
+   line-height: 20px;
+   border-radius: 10px 10px 0px 0px;
+   text-align: center;
+}
+
+.img-logo {
+   position: absolute;
+   left: 19px;
+   top: 12px;
+   width: 32px;
+   height: 32px;
+}
+
+.img-name {
+   position: absolute;
+   left: 57px;
+   top: 18px;
+   width: 105px;
+   height: 24px;
+}
+
+.center-module {
+   width: 100%;
+   line-height: 20px;
+   background-color: rgba(245, 246, 248, 100);
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
+
+.center-body {
+   width: 660px;
+   height: 430px;
+   margin-left: 30px;
+   background-color: white;
+}
+
+.progress {
+   width: 350px;
+   position: relative;
+   left: 50%;
+   margin-left: -175px;
+   top: 48%;
+   /* display: none; */
+}
+
+.table-body {
+   width: 660px;
+   height: 420px;
+   padding: 10px 20px 0;
+   display: none;
+}
+
+.select-data {
+   float: left;
+   width: 200px;
+   height: 30px;
+   line-height: 20px;
+   color: rgba(16, 16, 16, 100);
+   font-size: 12px;
+   font-family: Roboto;
+   border: 1px solid rgba(217, 217, 217, 100);
+   border-radius: 4px;
+}
+
+.select-loading {
+   float: left;
+   width: 30px;
+   height: 30px;
+   display: none;
+}
+
+.search-body {
+   width: 620px;
+   height: 30px;
+   position: relative;
+}
+
+.export-csv {
+   float: right;
+   outline: auto;
+   padding: 0px;
+   width: 105px;
+   height: 30px;
+   border-radius: 4px;
+   /* background-color: rgba(0, 143, 248, 100);
+   color: rgba(255, 255, 255, 100); */
+   background-color: rgba(0, 0, 0, 0.2);
+   color: rgba(255, 255, 255, 100);
+   font-size: 14px;
+   text-align: center;
+   font-family: Roboto;
+}
+.export-excel {
+   float: right;
+   outline: auto;
+   padding: 0px;
+   width: 105px;
+   height: 30px;
+   margin-right: 30px;
+   border-radius: 4px;
+   /* background-color: rgba(0, 143, 248, 100);
+   color: rgba(255, 255, 255, 100); */
+   background-color: rgba(0, 0, 0, 0.2);
+   color: rgba(255, 255, 255, 100);
+   font-size: 14px;
+   text-align: center;
+   font-family: Roboto;
+}
+
+.table-data {
+   margin-top: 10px;
+   width: 620px;
+   height: 370px;
+   border-radius: 4px 4px 0 0;
+   border: 1px solid #D9D9D9;
+}

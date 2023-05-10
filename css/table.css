@@ -1,0 +1,45 @@
+html, body{
+    overflow-x:hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size:22px;
+    padding:10px 30px;
+    color:#333;
+}
+p{
+    font-size:14px;
+    padding:10px 30px;
+    color:#333;
+    text-indent:2em;
+    margin: 0;
+}
+hr{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.plugin-action{
+    display: inline-block;
+    color: steelblue;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.bottom-bar{
+    background: #f8f8f8;
+    padding: 10px;
+    margin-top: 10px;
+}
+.bottom-bar button{
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+.bottom-bar a{
+    font-size: 12px;
+    padding: 5px 20px;
+    margin-right: 10px;
+}
